@@ -84,19 +84,19 @@ com.android.tools.build:gradle:3.1.2
 
 
 -------------------------------------------------------------
+![avatar](/app/src/main/assets/register.jpg)
+![avatar](/app/src/main/assets/login.jpg)
+![avatar](/app/src/main/assets/UserInformation1.jpg)
+![avatar](/app/src/main/assets/bar.jpg)
+![avatar](/app/src/main/assets/infowindow.jpg)
+![avatar](/app/src/main/assets/map.jpg)
+![avatar](/app/src/main/assets/myBike.jpg)
+![avatar](/app/src/main/assets/return.png)
+![avatar](/app/src/main/assets/backcars.png)
+![avatar](/app/src/main/assets/returnsuccess.png)
+![avatar](/app/src/main/assets/time.png)
+![avatar](/app/src/main/assets/userInform.png)
 
-    <img src="/app/src/main/assets/register.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/login.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/UserInformation1.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/bar.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/infowindow.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/map.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/myBike.jpg" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/return.png" width="200" hegiht="200" align=center />
-    <img src="/app/src/main/assets/backcars.png" width="200" hegiht="200" align=center />
-     <img src="/app/src/main/assets/returnsuccess.png" width="200" hegiht="200" align=center />
-      <img src="/app/src/main/assets/time.png" width="200" hegiht="200" align=center />
-       <img src="/app/src/main/assets/userInform.png" width="200" hegiht="200" align=center />
 
 -------------------------------------------
 
