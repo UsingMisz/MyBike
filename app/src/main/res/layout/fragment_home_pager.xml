@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:contentInsetStart="0dp"
+                app:contentInsetStart="0dp"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+                <LinearLayout
+                    android:id="@+id/navigation_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_drawer_home" />
+
+                    <com.example.administrator.mybike.CircleImageView
+                        android:id="@+id/toolbar_user_avatar"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="16dp"
+                        android:src="@drawable/ico_user_default"
+                        app:border_color="@color/white"
+                        app:border_width="1dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:maxLines="1"
+                        android:text="hellobike"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </com.baidu.mapapi.map.MapView>
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_marginTop="?attr/actionBarSize"
+             android:background="@color/blue"
+             android:id="@+id/nav_bar_up_time"
+             android:alpha="0.6"
+             android:visibility="gone">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="开始计费:"
+                 android:id="@+id/time_text"
+                 android:textSize="18sp"
+                 android:textColor="@color/white"
+                 android:layout_centerVertical="true"
+                 android:layout_marginLeft="50dp"
+
+                 />
+
+             <Chronometer
+                 android:layout_width="match_parent"
+                 android:format="00:00:00"
+                 android:gravity="center"
+                 android:id="@+id/nav_up_time"
+                 android:layout_height="wrap_content"
+                 android:textSize="18sp"
+                 android:textColor="@color/white"
+                 android:layout_centerInParent="true"
+                 />
+
+
+
+         </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</FrameLayout>

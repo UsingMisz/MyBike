@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="主页" />
+
+        <item
+            android:id="@+id/item_user"
+            android:checkable="false"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="用户资料" />
+
+        <item
+            android:id="@+id/item_exit"
+            android:checkable="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="注销" />
+
+
+    </group>
+
+
+
+
+
+</menu>

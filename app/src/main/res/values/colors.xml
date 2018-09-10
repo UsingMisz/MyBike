@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="window_background">#eaeaea</color>
+    <color name="card_view_background">@color/white</color>
+    <color name="font_normal">#555555</color>
+    <color name="black_alpha_45">#71000000</color>
+    <color name="orange_500">#FF9800</color>
+    <color name="focus_bg_color">@android:color/transparent</color>
+    <color name="focus_text_color">#fb7299</color>
+    <color name="gray_light">#dcdcdc</color>
+
+    <color name="colorTheme">#1296db</color>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#6C6C6C</color>
+    <color name="grey">#ACACAC</color>
+    <color name="lightgrey">#ECECEC</color>
+    <color name="lightlightgrey">#F1F1F1</color>
+    <color name="blue">#0074A6</color>
+
+
+    <color name="act_background">#efefef</color>
+    <color name="phone_bg">#f6f6f6</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+    <color name="gary">#898989</color>
+
+    <!--正文文字颜色-->
+    <color name="colorContent">#ff333333</color>
+    <!--页面背景的颜色-->
+    <color name="colorPageBg">#f2f4f5</color>
+    <!--水波纹点击效果-->
+    <color name="colorHomeLine">#D4D4D4</color>
+    <!--tab标签栏文字的颜色-->
+    <color name="colorTabText">#585858</color>
+
+
+    <color name="mainColor">#573567</color>
+
+  <!--dialog-->
+
+    <color name="font_gray_b">#d4d4d3</color>
+
+    <color name="font_tab_1">#42369a</color>
+    <color name="font_tab_0">#b1b1b1</color>
+
+
+    <color name="font_common_1">#424242</color>
+    <color name="font_common_2">#a1a1a1</color>
+    <color name="font_blue">#42369a</color>
+
+    <color name="font_green">#00cccc</color>
+
+    <color name="commom_background">#f3f3f3</color>
+</resources>

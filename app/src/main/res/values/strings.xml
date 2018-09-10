@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyBike</string>
+    <string name="login_hint_account">请输入账号</string>
+    <string name="level_text">lV3</string>
+    <string name="username">hellobike</string>
+    <string name="about_user_head_layout">钱币：80</string>
+</resources>
